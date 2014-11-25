@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BeeMon</string>
+    <string name="title_section1">Resúmen</string>
+    <string name="title_section2">Temperatura</string>
+    <string name="title_section3">Peso</string>
+    <string name="title_section4">Configuración</string>
+    <string name="tempLabel">Temperatura</string>
+    <string name="weightLabel">Peso</string>
+    <string name="connecterrorLabel">No está posible connectar al servidor.</string>
+    <string name="action_settings">Configuración</string>
+    <string name="lastupdatelabel">Última vez actualizado:</string>
+    <string name="dummy">nunca</string>
+    <string name="contentDescription">logo de temperatura/peso</string>
+    <string name="refresh">Actualizar</string>
+    <string name="certManageBTN">Administrar certificados</string>
+    <string name="certDialog">Tocar para borrar</string>
+    <string name="DialogRegister">Registrando...</string>
+    <string name="DialogUnregister">Deregistrando...</string>
+    <string name="DialogServerCheck">Examinando servidor...</string>
+    <string name="DialogLoading">Cargando datos...</string>
+    <string name="ConnectError">Conexión fracasó</string>
+    <string name="ConnectSuccess">Conexión exitoso</string>
+    <string name="nameEnter">Introducir nombre</string>
+    <string name="serverEnter">Introducir servidor</string>
+    <string name="registerSuccess">Registración exitoso</string>
+    <string name="registerFailed">Registración fracasó</string>
+    <string name="unregisterSuccess">Deregistración exitoso</string>
+    <string name="unregisterFailed">Deregistración fracasó</string>
+    <string name="serverError">Error de servidor</string>
+    <string name="nameError">Introducir nombre.\nSólo letras son permitidas!</string>
+    <string name="title_activity_fragment_overview">Resúmen</string>
+    <string name="title_activity_fragment_connect_error">Error de conexión</string>
+</resources>

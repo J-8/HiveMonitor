@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeeMon</string>
+    <string name="title_section1">Overview</string>
+    <string name="title_section2">Temperatur</string>
+    <string name="title_section3">Weight</string>
+    <string name="title_section4">Settings</string>
+    <string name="tempLabel">Temperatur</string>
+    <string name="weightLabel">Weight</string>
+    <string name="connecterrorLabel">Connection could not be established.</string>
+    <string name="action_settings">Settings</string>
+    <string name="lastupdatelabel">Last updated: </string>
+    <string name="dummy">never</string>
+    <string name="contentDescription">Logo of temperature/weight</string>
+    <string name="refresh">Refresh</string>
+    <string name="certManageBTN">Manage certificates</string>
+    <string name="certDialog">Tap to delete</string>
+    <string name="DialogRegister">Registering...</string>
+    <string name="DialogUnregister">Unregistering...</string>
+    <string name="DialogServerCheck">Checking server...</string>
+    <string name="DialogLoading">Loading data...</string>
+    <string name="ConnectError">Connection failed</string>
+    <string name="ConnectSuccess">Connection successful</string>
+    <string name="nameEnter">Please enter name.</string>
+    <string name="serverEnter">Please enter server.</string>
+    <string name="registerSuccess">Registration successful</string>
+    <string name="registerFailed">Registration failed</string>
+    <string name="unregisterSuccess">Unregistration successful</string>
+    <string name="unregisterFailed">Unregistration failed</string>
+    <string name="serverError">Servererror</string>
+    <string name="nameError">Please enter name.\nOnly letters allowed!</string>
+    <string name="title_activity_fragment_overview">Overview</string>
+    <string name="title_activity_fragment_connect_error">Connection Error</string>
+    
+    
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+</resources>

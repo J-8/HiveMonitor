@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.janb.beemon.FragmentOverview" >
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/templabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_toRightOf="@+id/section_label"
+        android:text="@string/tempLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/temptimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tempTV"
+        android:layout_below="@+id/tempTV"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/weighttimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightTV"
+        android:layout_below="@+id/weightTV"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/weightlabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/section_label"
+        android:layout_below="@+id/tempIMG"
+        android:layout_marginTop="30sp"
+        android:text="@string/weightLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/weightIMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightlabelTV"
+        android:layout_below="@+id/weightlabelTV"
+        android:src="@drawable/ic_weight"
+        android:contentDescription="@string/contentDescription"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/tempIMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightlabelTV"
+        android:layout_below="@+id/templabelTV"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/ic_temperature"
+        android:contentDescription="@string/contentDescription"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tempTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_alignTop="@+id/tempIMG"
+        android:layout_toRightOf="@+id/tempIMG"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/weightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_alignTop="@+id/weightIMG"
+        android:layout_toRightOf="@+id/weightIMG"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/lastupdatelabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/lastupdatelabel"
+        android:visibility="visible" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/lastupdateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lastupdatelabelTV"
+        android:layout_marginLeft="5sp"
+        android:layout_toRightOf="@+id/lastupdatelabelTV"
+        android:text="@string/dummy"
+        android:visibility="visible" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory
+        android:title="Benachrichtigungen">
+
+    <CheckBoxPreference
+            android:key="notification_preference"
+            android:title="Benachrichtungen aktivieren"
+            />
+	<EditTextPreference
+            android:key="contact_preference"
+            android:title="Name"
+            android:summary=""
+            android:dialogTitle="Name"
+            android:icon="@drawable/ic_action_person"
+            />
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:title="Sonstiges">
+<CheckBoxPreference
+            android:key="vibrate_preference"
+            android:title="Vibration"
+            android:summary="Bei Benachrichtigung vibrieren"
+            />
+<EditTextPreference
+            android:key="server_preference"
+            android:title="Serveradresse"
+            android:summary=""
+            android:dialogTitle="Serveradresse"
+            />
+<Preference android:title="@string/certManageBTN"
+                android:key="certManageBTN"/>
+</PreferenceCategory>
+
+
+</PreferenceScreen>
