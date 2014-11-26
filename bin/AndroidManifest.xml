@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.janb.beemon"
+    package="org.janb.hivemonitor"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,12 +11,12 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <permission
         android:name="com.jaybee.unitscan.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="true"
@@ -50,7 +50,7 @@
                 <!-- Receives the actual messages. -->
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="org.janb.beemon" />
+                <category android:name="org.janb.hivemonitor" />
             </intent-filter>
         </receiver>
 
@@ -62,13 +62,18 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.janb.beemon.MainActivity" />
+                android:value="org.janb.hivemonitor.MainActivity" />
         </activity>
         <activity
             android:name=".FragmentOverview"
             android:label="@string/title_activity_fragment_overview" >
         </activity>
         <activity android:name="de.duenndns.ssl.MemorizingActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/title_activity_welcome"
+            android:parentActivityName=".SettingsActivity" >
+        </activity>
     </application>
 
 </manifest>

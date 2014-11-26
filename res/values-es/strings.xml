@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BeeMon</string>
-    <string name="title_section1">Resúmen</string>
+    <string name="title_section1">Visión general</string>
     <string name="title_section2">Temperatura</string>
     <string name="title_section3">Peso</string>
     <string name="title_section4">Configuración</string>
     <string name="tempLabel">Temperatura</string>
     <string name="weightLabel">Peso</string>
-    <string name="connecterrorLabel">No está posible connectar al servidor.</string>
+    <string name="connecterrorLabel">No está posible conectar al servidor.</string>
     <string name="action_settings">Configuración</string>
     <string name="lastupdatelabel">Última vez actualizado:</string>
     <string name="dummy">nunca</string>
-    <string name="contentDescription">logo de temperatura/peso</string>
+    <string name="contentDescription">logo</string>
     <string name="refresh">Actualizar</string>
     <string name="certManageBTN">Administrar certificados</string>
-    <string name="certDialog">Tocar para borrar</string>
-    <string name="DialogRegister">Registrando...</string>
-    <string name="DialogUnregister">Deregistrando...</string>
-    <string name="DialogServerCheck">Examinando servidor...</string>
-    <string name="DialogLoading">Cargando datos...</string>
+    <string name="certDialog">Toca para borrar</string>
+    <string name="DialogRegister">Registrando&#8230;</string>
+    <string name="DialogUnregister">Deregistrando&#8230;</string>
+    <string name="DialogServerCheck">Comprobando servidor&#8230;</string>
+    <string name="DialogLoading">Cargando datos&#8230;</string>
     <string name="ConnectError">Conexión fracasó</string>
     <string name="ConnectSuccess">Conexión exitoso</string>
     <string name="nameEnter">Introducir nombre</string>
@@ -31,4 +30,18 @@
     <string name="nameError">Introducir nombre.\nSólo letras son permitidas!</string>
     <string name="title_activity_fragment_overview">Resúmen</string>
     <string name="title_activity_fragment_connect_error">Error de conexión</string>
+    <string name="title_activity_welcome">Setup</string>
+    <string name="serverCheckL">Configuración del servidor:</string>
+    <string name="serverHint">Servidor</string>
+    <string name="serverCheckBTN">Comprobar servidor</string>
+    <string name="serverManageBTN">Configurar servidor</string>
+    <string name="startBTN">Guardar y Empezar</string>
+    <string name="settingsNameL">Nombre</string>
+    <string name="settingsVibrationL">Vibratión</string>
+    <string name="settingsVibrationSummaryL">Activar vibración</string>
+    <string name="settingsNotificationsL">Notificationes</string>
+    <string name="settingsNotificationsBTN">Recibir notificationes</string>
+    <string name="settingsFurtherL">Otro</string>
+    <string name="gitHubL">Este proyecto en GitHub</string>
+    
 </resources>

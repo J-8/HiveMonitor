@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/checkServerL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/serverCheckL"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/serverTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkServerL"
+        android:layout_toLeftOf="@+id/serverCheckIC"
+        android:ems="10"
+        android:hint="@string/serverHint" 
+        android:layout_marginBottom="10sp">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/serverCheckBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/serverTV"
+        android:text="@string/serverCheckBTN" />
+
+    <ImageView
+        android:id="@+id/serverCheckIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/serverCheckBTN"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_web_site"
+        android:visibility="invisible"
+        android:contentDescription="@string/contentDescription"/>
+
+    <Button
+        android:id="@+id/certManageBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/serverCheckBTN"
+        android:text="@string/certManageBTN" />
+
+    <Button
+        android:id="@+id/startBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:text="@string/startBTN"
+        android:visibility="invisible" />
+
+</RelativeLayout>

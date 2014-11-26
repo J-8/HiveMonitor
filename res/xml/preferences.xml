@@ -2,36 +2,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 <PreferenceCategory
-        android:title="Benachrichtigungen">
+        android:title="@string/settingsNotificationsL">
 
     <CheckBoxPreference
             android:key="notification_preference"
-            android:title="Benachrichtungen aktivieren"
+            android:title="@string/settingsNotificationsBTN"
             />
 	<EditTextPreference
             android:key="contact_preference"
-            android:title="Name"
-            android:summary=""
-            android:dialogTitle="Name"
+            android:title="@string/settingsNameL"
+            android:dialogTitle="@string/settingsNameL"
             android:icon="@drawable/ic_action_person"
             />
 </PreferenceCategory>
 
 <PreferenceCategory
-        android:title="Sonstiges">
+        android:title="@string/settingsFurtherL">
 <CheckBoxPreference
             android:key="vibrate_preference"
-            android:title="Vibration"
-            android:summary="Bei Benachrichtigung vibrieren"
+            android:title="@string/settingsVibrationL"
+            android:summary="@string/settingsVibrationSummaryL"
             />
-<EditTextPreference
-            android:key="server_preference"
-            android:title="Serveradresse"
-            android:summary=""
-            android:dialogTitle="Serveradresse"
-            />
-<Preference android:title="@string/certManageBTN"
-                android:key="certManageBTN"/>
+<Preference
+    		android:title="@string/serverManageBTN"
+            android:key="serverManageBTN"/>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:title="@string/settingsFurtherL">
+<Preference
+    		android:title="@string/gitHubL"
+        	android:summary="@string/gitHubLink"
+            android:key="gitHubBTN"/>
 </PreferenceCategory>
 
 
