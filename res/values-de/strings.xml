@@ -21,7 +21,7 @@
     <string name="ConnectError">Verbindung fehlgeschlagen</string>
     <string name="ConnectSuccess">Verbindung erfolgreich</string>
     <string name="nameEnter">Bitte Namen eingeben.</string>
-    <string name="serverEnter">Bitte Server eingeben.</string>
+    <string name="serverEnter">Bitte Host eingeben.</string>
     <string name="registerSuccess">Anmeldung erfolgreich</string>
     <string name="registerFailed">Anmeldung fehlgeschlagen</string>
     <string name="unregisterSuccess">Abmeldung erfolgreich</string>
